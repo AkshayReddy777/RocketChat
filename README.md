@@ -20,7 +20,9 @@ yarn dsv
 #########################################
 
 ALL THE COMMANDS NEED TO BE RUN AS A USER AND NOT ROOT.
+
 UPDATE THE REPOSITORIES:
+
 sudo apt update
 
 INSTALL GIT AND CURL COMMANDS:
