@@ -8,7 +8,7 @@ sudo apt install git curl -y
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
 source ~/.bashrc   
 nvm install 14.21.2
-sudo add-apt-repository universe
+sudo add-apt-repository universe -y
 sudo apt install g++ build-essential git curl python2-minimal -y
 curl https://install.meteor.com/ | sh
 npm install --global yarn
@@ -18,27 +18,36 @@ git checkout develop
 yarn
 yarn dsv
 #########################################
-All the commands need to be run as a user and not root.
-update the repositories:
+
+ALL THE COMMANDS NEED TO BE RUN AS A USER AND NOT ROOT.
+UPDATE THE REPOSITORIES:
 sudo apt update
-Install git and curl commands:
+
+INSTALL GIT AND CURL COMMANDS:
 sudo apt install git curl -y
-install nvm and node version 14.21.2:
+
+INSTALL NVM AND NODE VERSION 14.21.2:
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
 source ~/.bashrc
 nvm install 14.21.2
-install the dependencies and python module:
+
+INSTALL THE DEPENDENCIES AND PYTHON MODULE:
 sudo add-apt-repository universe
 sudo apt install g++ build-essential git curl python2-minimal -y
-install meteor:
+
+INSTALL METEOR:
 curl https://install.meteor.com/ | sh
-install yarn:
+
+INSTALL YARN:
 npm install --global yarn
-clone the url and change the branch to develop:
+
+CLONE THE URL AND CHANGE THE BRANCH TO DEVELOP:
 git clone https://github.com/AkshayReddy777/RocketChat.git
 cd RocketChat
 git checkout develop
-run the command yarn to install dependencies and MongoDB setup:
+
+RUN THE COMMAND YARN TO INSTALL DEPENDENCIES AND MONGODB SETUP:
 yarn
-run the command yarn dsv to launch the application:
+
+RUN THE COMMAND YARN DSV TO LAUNCH THE APPLICATION:
 yarn dsv
