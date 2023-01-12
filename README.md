@@ -1,6 +1,6 @@
 # RocketChat
 to setup Rocketchat we need a ubuntu system with atleast 8gb memory and 15gb storage.
-After launching the instance we can either run bash script below or install with commands mentioned manually.
+After launching the instance we can either run bash script in the repository main branch or install with commands mentioned manually.
 
 
 ALL THE COMMANDS NEED TO BE RUN AS A USER AND NOT ROOT.
